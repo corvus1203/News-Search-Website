@@ -1,0 +1,72 @@
+.css-2b097c-container {
+  width: 100%;
+}
+
+#searchForm {
+  width: 20%;
+}
+
+.__react_component_tooltip {
+  padding: 5px !important;
+}
+
+#Bar {
+  background: -webkit-linear-gradient(90deg, #172341, #3f5db0);
+  background: -o-linear-gradient(90deg, #172341, #3f5db0);
+  background: -moz-linear-gradient(90deg, #172341, #3f5db0);
+  background: linear-gradient(90deg, #172341, #3f5db0);
+}
+
+#Bar .navbar-text {
+  color: white;
+}
+
+#Bar .nav-link:hover,
+#Bar .nav-link:active {
+  color: white;
+}
+
+#Bar form {
+  height: 40px;
+}
+
+form.hideSwitch {
+  display: none;
+}
+
+.resultTitle {
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.center-p {
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#Bar #switchForm label {
+  justify-content: left;
+}
+
+@media (max-width: 992px) {
+  #Bar {
+    text-align: left;
+  }
+  #Bar label {
+    display: flex;
+    margin-bottom: 0;
+  }
+  #searchForm {
+    width: 80%;
+  }
+  #Bar #switchForm {
+    display: contents;
+  }
+  #Bar .hideSwitch#switchForm {
+    display: none;
+  }
+  .__react_component_tooltip {
+    display: none !important;
+  }
+}

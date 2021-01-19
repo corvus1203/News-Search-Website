@@ -1,0 +1,206 @@
+.card-body {
+  text-align: left;
+}
+
+.card img {
+  width: 94%;
+  padding: 1%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+}
+
+.cardImg-container {
+  width: 25%;
+}
+
+.cardText-container {
+  width: 75%;
+}
+
+.detailcard {
+  text-align: left;
+  -webkit-box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+  -moz-box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+  box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+}
+
+.detailcard > div {
+  width: 100%;
+}
+
+.detailcard > div > h1 {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.detailcard > div > img {
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+
+.detailcard > div > p {
+  font-size: 1.2rem;
+  margin-left: 2%;
+  float: left;
+  font-weight: 500;
+}
+
+.detailcard #description {
+  text-align: justify;
+}
+
+.newscard {
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+  -moz-box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+  box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+}
+
+.resultcard {
+  width: 23%;
+  font-size: 0.9rem;
+  height: min-content;
+  margin: 0 1%;
+  margin-bottom: 2%;
+  padding-bottom: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+  -moz-box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+  box-shadow: 0px 3px 5px 3px rgba(215, 215, 215, 1);
+}
+
+.resultcard img {
+  width: 100%;
+}
+
+.newscard:hover,
+.resultcard:hover {
+  cursor: pointer;
+}
+
+.card-title {
+  font-weight: 800;
+}
+
+.resultcard .card-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.sectionTag,
+.companyTag {
+  float: right;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  margin-top: 0.1rem;
+}
+
+.sectionTag.world {
+  color: white;
+  background-color: #7c4ef7;
+}
+
+.sectionTag.politics {
+  color: white;
+  background-color: #419288;
+}
+
+.sectionTag.business {
+  color: white;
+  background-color: #4696ec;
+}
+
+.sectionTag.technology {
+  color: black;
+  background-color: #cedc39;
+}
+
+.sectionTag.sport {
+  color: black;
+  background-color: #f6c244;
+}
+
+.sectionTag.other {
+  color: white;
+  background-color: #6e757c;
+}
+
+.companyTag.guardian {
+  color: white;
+  background-color: #14284a;
+}
+
+.companyTag.nytimes {
+  color: black;
+  background-color: #dddddd;
+}
+
+/* styles for '...' */
+.block-with-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.block-with-text-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.iconBtn {
+  background-color: white;
+  border: none;
+}
+
+.arrowBtn {
+  margin-top: 10px;
+  float: right;
+}
+
+.Toastify__toast-body {
+  color: black;
+}
+
+#detail-container {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .newscard {
+    padding: 1.25rem;
+  }
+  .newscard .card-body {
+    padding: 0;
+  }
+  .newscard img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 !important;
+  }
+
+  .resultcard {
+    width: auto;
+    margin: 0 1rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .cardImg-container,
+  .cardText-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .detailcard > div > p {
+    font-size: 0.9rem;
+  }
+}
