@@ -3,6 +3,7 @@ import Popup from "reactjs-popup";
 import "./Popup.css";
 import ShareButton from "./shareButton";
 import { MdShare } from "react-icons/md";
+import 'reactjs-popup/dist/index.css';
 
 class PopupW extends Component {
   render() {
@@ -16,7 +17,6 @@ class PopupW extends Component {
             <MdShare />
           </button>
         }
-        onOpen={(e) => e.stopPropagation()}
         className="sharepopup"
         modal
       >
