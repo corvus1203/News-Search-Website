@@ -22,7 +22,7 @@ export default class WithCallbacks extends Component {
         `https://api.bing.microsoft.com/v7.0/suggestions?q=${inputValue}`,
         {
           headers: {
-            "Ocp-Apim-Subscription-Key": "e1399e98e09843db857df5c98a6c3fc4",
+            "Ocp-Apim-Subscription-Key": "",
           },
         }
       ).then((response) => {
